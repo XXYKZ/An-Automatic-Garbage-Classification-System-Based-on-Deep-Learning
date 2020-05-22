@@ -1,0 +1,10 @@
+可回收-下面的舵机-low-255 gpio ： TX2上电，默认输出0V，连接STM32时测为0V，故开机时下面的舵机不会转动
+
+不可回收-上面的舵机-top-388 gpio ： TX2上电，默认输出3.3V，连接STM32时测为1.5V，故开机时下面的舵机会转动一次
+
+log:
+2019-03-27 11:10:34.219428: E tensorflow/stream_executor/event.cc:42] could not create CUDA event: CUDA_ERROR_UNKNOWN: unknown error
+段错误 (核心已转储)
+
+
+
